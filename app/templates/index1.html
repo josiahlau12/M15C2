@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <style>
+        h1{
+            color:red;
+            text-align:center;
+        }
+       </style>
+       <script>
+        function show(h) {
+        
+            document.getElementById("iphone").style.display="none";
+            document.getElementById("flip").style.display="none";
+            document.getElementById(h).style.display="block";
+        
+        }
+        
+        
+        </script>
+           
+
+
+    </head>
+<body>
+<table border="1" width="400" align="center">
+    <tr>
+        <td align="center"><a href="javascript:show('iphone')"><img src="iphone.jpg" width="100"><br>iphone</a></td>
+        <td align="center"><a href="javascript:show('flip')"><img src="flip.jpg" width="100"><br>flip</a></td>
+    </tr>
+</table>
+<div id="iphone" style="display:none">
+    <h1>Iphone 14 : $1000</h1>
+</div>
+
+<br>
+
+<div id="flip" style="display:none">
+    <h1>Flip : $1300</h1>
+</div>
